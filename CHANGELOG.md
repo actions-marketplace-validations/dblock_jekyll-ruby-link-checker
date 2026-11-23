@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 (Next)
+## 0.1.0 (2026/11/23)
 
 - [#2](https://github.com/dblock/jekyll-ruby-link-checker/pull/2): Check internal, anchor, relative, and external links during the build, with configuration, a persistent cache, and a reusable workflow that keeps the cache between runs - [@dblock](https://github.com/dblock).
 - [#3](https://github.com/dblock/jekyll-ruby-link-checker/pull/3): Release with ruby-gem-release from a manually dispatched workflow, with RubyGems Trusted Publishing - [@dblock](https://github.com/dblock).
@@ -25,4 +25,3 @@
 - [#28](https://github.com/dblock/jekyll-ruby-link-checker/pull/28): Add the check as an action, `action.yml`, for GitHub Marketplace - [@dblock](https://github.com/dblock).
 - [#29](https://github.com/dblock/jekyll-ruby-link-checker/pull/29): Suggest `exclude` settings for unverified links and sites that didn't answer properly in the report - [@dblock](https://github.com/dblock).
 - [#30](https://github.com/dblock/jekyll-ruby-link-checker/pull/30): Post Danger comments on stacked pull requests - [@dblock](https://github.com/dblock).
-- Your contribution here.
