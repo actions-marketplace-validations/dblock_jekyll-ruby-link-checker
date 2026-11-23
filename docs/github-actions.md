@@ -27,7 +27,7 @@ permissions:
 
 jobs:
   check-links:
-    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@v0.1.0
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@v0.2.0
     with:
       ruby-version: '3.4'                           # default: read .ruby-version
       working-directory: .                          # where the site is (default: .)
@@ -71,7 +71,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           fetch-depth: 2
-      - uses: dblock/jekyll-ruby-link-checker@v0.1.0
+      - uses: dblock/jekyll-ruby-link-checker@v0.2.0
 ```
 
 The action takes text inputs, so `changed-files-only` is `'true'` or `'false'`, and `fail-on-dead-links` is `'true'`, `'new'`, or `'false'`, or an expression. `publish-report.yml` publishes the report of a workflow named Check Links, so keep that name, as above, to use it.
@@ -100,7 +100,7 @@ permissions:
 
 jobs:
   publish:
-    uses: dblock/jekyll-ruby-link-checker/.github/workflows/publish-report.yml@v0.1.0
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/publish-report.yml@v0.2.0
     with:
       issue: 'true'          # 'true' for an issue titled Broken Links, a title, a number such as '123', or 'false' (default: 'false')
       comment: true          # comment on pull requests (default: true)

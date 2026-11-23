@@ -63,7 +63,7 @@ permissions:
 
 jobs:
   check-links:
-    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@v0.1.0
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/check-links.yml@v0.2.0
 ```
 
 A run fails when it finds dead links, and lists them in its summary. Fix them, push, and repeat until the run passes.
@@ -86,7 +86,7 @@ permissions:
 
 jobs:
   publish:
-    uses: dblock/jekyll-ruby-link-checker/.github/workflows/publish-report.yml@v0.1.0
+    uses: dblock/jekyll-ruby-link-checker/.github/workflows/publish-report.yml@v0.2.0
     with:
       issue: 'true'
 ```
