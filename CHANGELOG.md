@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.2.0 (Next)
+## 0.2.0 (2026/11/23)
 
 - [#31](https://github.com/dblock/jekyll-ruby-link-checker/pull/31): Add screenshots of reports from code.dblock.org to the documentation - [@dblock](https://github.com/dblock).
 - [#32](https://github.com/dblock/jekyll-ruby-link-checker/pull/32): Check images, in `img src` and `srcset`, and choose what's checked, where, and inside or outside the site, with `check` - [@dblock](https://github.com/dblock).
@@ -14,7 +14,6 @@
 - [#42](https://github.com/dblock/jekyll-ruby-link-checker/pull/42): Only fail on new dead links with `LINK_CHECKER_FAIL=new`, compared with the dead links of an earlier build in `LINK_CHECKER_BASELINE`, which `LINK_CHECKER_DEAD_LINKS` writes - [@dblock](https://github.com/dblock).
 - [#43](https://github.com/dblock/jekyll-ruby-link-checker/pull/43): List new, existing, and fixed dead links in their own sections of the report - [@dblock](https://github.com/dblock).
 - [#45](https://github.com/dblock/jekyll-ruby-link-checker/pull/45): Fail pull requests only on new dead links by default, compared with the dead links of the default branch, which the workflow and the action save in the cache. `fail-on-dead-links` of `check-links.yml` is now text: quote `'true'` and `'false'` - [@dblock](https://github.com/dblock).
-- Your contribution here.
 
 ## 0.1.0 (2026/11/23)
 
